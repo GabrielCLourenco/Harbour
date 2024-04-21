@@ -19,7 +19,8 @@ METHOD New(Nome,Sobrenome,DatadeNascimento,Signo,Idade,Altura,Peso)
 ::Nome := Nome
 ::Sobrenome := Sobrenome
 ::DatadeNascimento := DatadeNascimento
-::Signo := Idade
-::Idade := Altura
+::Signo := Signo
+::Idade := Idade
+::Altura := Altura
 ::Peso := Peso
-return
+return self

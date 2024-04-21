@@ -1,0 +1,6 @@
+REQUEST HB_CODEPAGE_UTF8
+function main()
+SET CENT ON
+SET DATE BRIT
+
+hb_cdpSelect("UTF8")
